@@ -25,7 +25,10 @@
     "default": {
       "description": "Default config for Nuxt.js repository",
       "extends": [
-        "config:base"
+        "config:base",
+        ":automergeMinor",
+        ":automergeBranchPush",
+        "group:allNonMajor"
       ],
       "rangeStrategy": "bump"
     }
