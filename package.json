@@ -1,0 +1,37 @@
+{
+  "name": "@nuxtjs/renovate-config",
+  "version": "0.0.1",
+  "description": "Nuxt.js presets for Renovate",
+  "contributors": [
+    "Pooya Parsa <pooya@pi0.ir>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/nuxt/renovate-config-nuxt",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuxt/renovate-config-nuxt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nuxt/renovate-config-nuxt/issues"
+  },
+  "scripts": {
+    "validate": "renovate-config-validator",
+    "test": "npm run validate"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "renovate-config": {
+    "default": {
+      "description": "Default config for Nuxt.js repository",
+      "extends": [
+        "config:base"
+       ],
+      "rangeStrategy": "bump"
+    }
+  },
+  "devDependencies": {
+    "renovate": "^13.81.3"
+  }
+}
