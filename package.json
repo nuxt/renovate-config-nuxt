@@ -18,10 +18,6 @@
     "validate": "renovate-config-validator",
     "test": "npm run validate"
   },
-  "prettier": {
-    "singleQuote": true,
-    "trailingComma": "es5"
-  },
   "renovate-config": {
     "default": {
       "description": "Default config for Nuxt.js repository",
