@@ -20,6 +20,7 @@
     "release": "standard-version && git push --follow-tags && npm publish",
     "prepare": "npm run test"
   },
+  "files": [],
   "renovate-config": {
     "default": {
       "description": "Default config for Nuxt.js repository",
