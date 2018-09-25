@@ -1,6 +1,18 @@
-# Renovate-Config-Nuxt
+# Renovate Nuxt Configs
 
 Nuxt.js presets for [Renovate](https://github.com/singapore/renovate) tool.
+
+## Usage
+
+Add this into `renovate.json`:
+
+```json
+{
+  "extends": [
+    "@nuxtjs"
+  ]
+}
+```
 
 ## Useful Links
 
