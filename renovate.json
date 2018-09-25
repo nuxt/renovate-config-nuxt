@@ -1,7 +1,9 @@
 {
   "extends": [
     "config:base",
-    ":automergeAll",
-    ":automergeBranchPush"
-  ]
+    ":automergeMinor",
+    ":automergeBranchPush",
+    ":group:allNonMajor"
+  ],
+  "rangeStrategy": "bump"
 }
