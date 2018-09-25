@@ -16,18 +16,21 @@
   },
   "scripts": {
     "validate": "renovate-config-validator",
-    "test": "npm run validate"
+    "test": "npm run validate",
+    "release": "standard-version && git push --follow-tags && npm publish",
+    "prepare": "npm run test"
   },
   "renovate-config": {
     "default": {
       "description": "Default config for Nuxt.js repository",
       "extends": [
         "config:base"
-       ],
+      ],
       "rangeStrategy": "bump"
     }
   },
   "devDependencies": {
-    "renovate": "^13.81.3"
+    "renovate": "^13.81.3",
+    "standard-version": "^4.4.0"
   }
 }
