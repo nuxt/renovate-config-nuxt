@@ -3,7 +3,7 @@
     "config:base",
     ":automergeMinor",
     ":automergeBranchPush",
-    ":group:allNonMajor"
+    "group:allNonMajor"
   ],
   "rangeStrategy": "bump"
 }
