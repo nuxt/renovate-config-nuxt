@@ -1,6 +1,6 @@
 {
   "name": "@nuxtjs/renovate-config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Nuxt.js presets for Renovate",
   "contributors": [
     "Pooya Parsa <pooya@pi0.ir>"
