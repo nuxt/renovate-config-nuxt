@@ -5,5 +5,8 @@
     ":automergeBranchPush",
     "group:allNonMajor"
   ],
+  "meteor": {
+    "enabled": false
+  },
   "rangeStrategy": "bump"
 }
