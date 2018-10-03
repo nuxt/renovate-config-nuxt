@@ -1,9 +1,10 @@
 {
   "name": "@nuxtjs/renovate-config",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Nuxt.js presets for Renovate",
   "contributors": [
-    "Pooya Parsa <pooya@pi0.ir>"
+    "Pooya Parsa <pooya@pi0.ir>",
+    "Dmitry Molotkov <aldarund@gmail.com>"
   ],
   "license": "MIT",
   "homepage": "https://github.com/nuxt/renovate-config-nuxt",
