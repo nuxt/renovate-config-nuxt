@@ -1,12 +1,5 @@
 {
   "extends": [
-    "config:base",
-    ":automergeMinor",
-    ":automergeBranchPush",
-    "group:allNonMajor"
-  ],
-  "meteor": {
-    "enabled": false
-  },
-  "rangeStrategy": "bump"
+    "@nuxtjs"
+  ]
 }
