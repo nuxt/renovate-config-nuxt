@@ -37,7 +37,7 @@
     }
   },
   "devDependencies": {
-    "renovate": "^13.123.1",
+    "renovate": "^13.133.0",
     "standard-version": "^4.4.0"
   }
 }
