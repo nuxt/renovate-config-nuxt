@@ -27,7 +27,8 @@
       "description": "Default config for Nuxt.js repository",
       "extends": [
         "config:base",
-        "group:allNonMajor"
+        "group:allNonMajor",
+        ":semanticCommitTypeAll(chore)"
       ],
       "meteor": {
         "enabled": false
