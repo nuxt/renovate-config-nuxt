@@ -24,6 +24,7 @@
   "files": [],
   "renovate-config": {
     "default": {
+      "baseBranches": ["dev"],
       "description": "Default config for Nuxt.js repository",
       "extends": [
         "config:base",
