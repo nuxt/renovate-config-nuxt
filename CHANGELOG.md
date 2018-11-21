@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.0"></a>
+# [0.1.0](https://github.com/nuxt/renovate-config-nuxt/compare/v0.0.8...v0.1.0) (2018-11-21)
+
+
+### Features
+
+* set dev as default branch ([61ee066](https://github.com/nuxt/renovate-config-nuxt/commit/61ee066))
+
+
+
 <a name="0.0.8"></a>
 ## [0.0.8](https://github.com/nuxt/renovate-config-nuxt/compare/v0.0.7...v0.0.8) (2018-11-20)
 

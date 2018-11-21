@@ -1,6 +1,6 @@
 {
   "name": "@nuxtjs/renovate-config",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "Nuxt.js presets for Renovate",
   "contributors": [
     "Pooya Parsa <pooya@pi0.ir>",
@@ -24,7 +24,9 @@
   "files": [],
   "renovate-config": {
     "default": {
-      "baseBranches": ["dev"],
+      "baseBranches": [
+        "dev"
+      ],
       "description": "Default config for Nuxt.js repository",
       "extends": [
         "config:base",
