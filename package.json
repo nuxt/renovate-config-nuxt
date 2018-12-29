@@ -33,7 +33,8 @@
       "meteor": {
         "enabled": false
       },
-      "rangeStrategy": "bump"
+      "rangeStrategy": "bump",
+      "commitMessageTopic": "{{prettyDepType}} {{depName}}”
     }
   },
   "devDependencies": {
