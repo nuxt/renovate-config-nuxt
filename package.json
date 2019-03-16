@@ -41,6 +41,6 @@
   },
   "devDependencies": {
     "renovate": "^14.7.2",
-    "standard-version": "^4.4.0"
+    "standard-version": "^5.0.2"
   }
 }
