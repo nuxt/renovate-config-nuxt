@@ -40,7 +40,7 @@
     }
   },
   "devDependencies": {
-    "renovate": "^14.7.2",
+    "renovate": "^16.10.8",
     "standard-version": "^4.4.0"
   }
 }
