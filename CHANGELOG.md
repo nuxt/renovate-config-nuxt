@@ -1,6 +1,17 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [0.1.2](https://github.com/nuxt/renovate-config-nuxt/compare/v0.1.1...v0.1.2) (2019-05-27)
+
+
+### Bug Fixes
+
+* correct quotation mark ([dcfd090](https://github.com/nuxt/renovate-config-nuxt/commit/dcfd090))
+* correct spacing ([312687a](https://github.com/nuxt/renovate-config-nuxt/commit/312687a))
+* move commitMessageTopic inside npm ([#15](https://github.com/nuxt/renovate-config-nuxt/issues/15)) ([83e9edd](https://github.com/nuxt/renovate-config-nuxt/commit/83e9edd))
+
+
 
 <a name="0.1.1"></a>
 ## [0.1.1](https://github.com/nuxt/renovate-config-nuxt/compare/v0.1.0...v0.1.1) (2018-11-21)
