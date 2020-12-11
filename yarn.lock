@@ -4242,7 +4242,7 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@^19.0.0:
+renovate@^19.239.11:
   version "19.239.11"
   resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.239.11.tgz#7fdc6fd6f867678efd9bdbb83a0b9c0f8e4344e8"
   integrity sha512-hzth7nW0Xozb9js3MBKVfe+MLurAdbkXmTvkpaHTi+g9Vw5RMfB1oVcKWEKMEZMVYUnmT4YFQcYPY3gqu+3sVg==
