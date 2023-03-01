@@ -1,7 +1,7 @@
 {
   "name": "@nuxtjs/renovate-config",
   "version": "0.1.2",
-  "description": "Nuxt.js presets for Renovate",
+  "description": "Nuxt presets for Renovate",
   "contributors": [
     "Pooya Parsa <pooya@pi0.ir>",
     "Dmitry Molotkov <aldarund@gmail.com>"
@@ -24,7 +24,7 @@
   "files": [],
   "renovate-config": {
     "default": {
-      "description": "Default config for Nuxt.js repository",
+      "description": "Default config for Nuxt repositories",
       "extends": [
         "config:base",
         "group:allNonMajor",
@@ -36,7 +36,52 @@
       "rangeStrategy": "bump",
       "npm": {
         "commitMessageTopic": "{{prettyDepType}} {{depName}}"
-      }
+      },
+      "packageRules": [
+        {
+          "groupName": "nuxt framework",
+          "groupSlug": "nuxt",
+          "matchPackageNames": [
+            "nuxt",
+            "nuxt3",
+            "nuxt-edge",
+            "@nuxt/schema",
+            "@nuxt/kit",
+            "@nuxt/vite-builder",
+            "@nuxt/webpack-builder",
+            "@nuxt/test-utils",
+            "@nuxt/schema-edge",
+            "@nuxt/kit-edge",
+            "@nuxt/vite-builder-edge",
+            "@nuxt/webpack-builder-edge",
+            "@nuxt/test-utils-edge",
+            "@nuxt/babel-preset-app",
+            "@nuxt/builder",
+            "@nuxt/cli",
+            "@nuxt/config",
+            "@nuxt/core",
+            "@nuxt/generator",
+            "@nuxt/server",
+            "@nuxt/types",
+            "@nuxt/utils",
+            "@nuxt/vue-app",
+            "@nuxt/vue-renderer",
+            "@nuxt/webpack",
+            "@nuxt/babel-preset-app-edge",
+            "@nuxt/builder-edge",
+            "@nuxt/cli-edge",
+            "@nuxt/config-edge",
+            "@nuxt/core-edge",
+            "@nuxt/generator-edge",
+            "@nuxt/server-edge",
+            "@nuxt/types-edge",
+            "@nuxt/utils-edge",
+            "@nuxt/vue-app-edge",
+            "@nuxt/vue-renderer-edge",
+            "@nuxt/webpack-edge"
+          ]
+        }
+      ]
     }
   },
   "devDependencies": {
