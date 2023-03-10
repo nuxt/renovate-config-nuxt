@@ -85,7 +85,7 @@
     }
   },
   "devDependencies": {
-    "renovate": "^34.29.0",
+    "renovate": "^34.160.0",
     "standard-version": "^9.0.0"
   }
 }
