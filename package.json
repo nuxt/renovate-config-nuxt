@@ -12,7 +12,7 @@
     "url": "https://github.com/nuxt/renovate-config-nuxt/issues"
   },
   "scripts": {
-    "validate": "renovate-config-validator",
+    "validate": "renovate-config-validator default.json",
     "test": "npm run validate",
     "release": "standard-version && git push --follow-tags && npm publish",
     "prepare": "npm run test"
