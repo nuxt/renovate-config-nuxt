@@ -9,7 +9,7 @@ Add this into `renovate.json`:
 ```json
 {
   "extends": [
-    "@nuxtjs"
+    "github>nuxt/renovate-config-nuxt"
   ]
 }
 ```
