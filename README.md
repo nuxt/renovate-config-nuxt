@@ -1,6 +1,6 @@
 # Renovate Nuxt Configs
 
-Nuxt preset for [Renovate](https://github.com/singapore/renovate).
+Nuxt preset for [Renovate](https://github.com/renovatebot/renovate).
 
 ## Usage
 
