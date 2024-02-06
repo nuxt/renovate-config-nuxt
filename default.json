@@ -56,7 +56,8 @@
         "@nuxt/vue-app-edge",
         "@nuxt/vue-renderer-edge",
         "@nuxt/webpack-edge"
-      ]
+      ],
+      "matchPackagePrefixes": ["@nuxtjs"]
     }
   ]
 }
