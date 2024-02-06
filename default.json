@@ -1,7 +1,7 @@
 {
   "description": "Default config for Nuxt repositories",
   "extends": [
-    "config:base",
+    "config:recommended",
     "group:allNonMajor",
     ":semanticCommitTypeAll(chore)"
   ],
