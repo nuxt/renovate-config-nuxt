@@ -1,6 +1,6 @@
 # Renovate Nuxt Configs
 
-Nuxt.js presets for [Renovate](https://github.com/singapore/renovate) tool.
+Nuxt preset for [Renovate](https://github.com/singapore/renovate).
 
 ## Usage
 
@@ -22,4 +22,4 @@ Add this into `renovate.json`:
 
 ## License
 
-MIT - Nuxt.js team
+MIT - Nuxt team
