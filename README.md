@@ -8,8 +8,9 @@ Add this into `renovate.json`:
 
 ```json
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "@nuxtjs"
+    "github>nuxt/renovate-config-nuxt",
   ]
 }
 ```
