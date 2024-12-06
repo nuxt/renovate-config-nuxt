@@ -57,6 +57,12 @@
         "@nuxt/vue-renderer-edge",
         "@nuxt/webpack-edge"
       ]
+    },
+    {
+      "groupName": "typescript",
+      "matchPackageNames": [
+        "typescript"
+      ]
     }
   ]
 }
