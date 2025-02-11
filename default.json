@@ -8,6 +8,9 @@
   "meteor": {
     "enabled": false
   },
+  "ignoreDeps": [
+    "node"
+  ],
   "rangeStrategy": "bump",
   "npm": {
     "commitMessageTopic": "{{prettyDepType}} {{depName}}"
