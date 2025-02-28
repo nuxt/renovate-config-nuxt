@@ -10,7 +10,7 @@ Add this into `renovate.json`:
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>nuxt/renovate-config-nuxt",
+    "github>nuxt/renovate-config-nuxt"
   ]
 }
 ```
