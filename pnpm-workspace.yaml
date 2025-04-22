@@ -1,0 +1,6 @@
+ignoredBuiltDependencies:
+  - better-sqlite3
+  - core-js-pure
+  - dtrace-provider
+  - protobufjs
+  - re2
