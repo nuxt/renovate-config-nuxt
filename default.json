@@ -3,6 +3,7 @@
   "extends": [
     "config:recommended",
     "group:allNonMajor",
+    ":maintainLockFilesWeekly",
     ":semanticCommitTypeAll(chore)"
   ],
   "meteor": {
@@ -15,6 +16,9 @@
   "npm": {
     "commitMessageTopic": "{{prettyDepType}} {{depName}}"
   },
+  "schedule": [
+    "on Monday"
+  ],
   "packageRules": [
     {
       "groupName": "nuxt framework",
