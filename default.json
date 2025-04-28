@@ -57,6 +57,9 @@
         "@nuxt/vue-app-edge",
         "@nuxt/vue-renderer-edge",
         "@nuxt/webpack-edge"
+      ],
+      "schedule": [
+        "* * * * *"
       ]
     }
   ]
