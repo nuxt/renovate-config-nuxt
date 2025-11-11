@@ -4,5 +4,4 @@ ignoredBuiltDependencies:
   - dtrace-provider
   - protobufjs
   - re2
-trustPolicy: no-downgrade
 
