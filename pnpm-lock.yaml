@@ -10,7 +10,7 @@ importers:
     devDependencies:
       renovate:
         specifier: latest
-        version: 43.12.1(encoding@0.1.13)(typanion@3.14.0)
+        version: 43.15.1(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -2492,8 +2492,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.12.1:
-    resolution: {integrity: sha512-vpczBtJtS843pyJPvfw/6nAsDn52vpQJ/W+L0LlJQF1CompsHrSCd8k6F3TQSR2201IxcL2vnT3uTTxCztU5qA==}
+  renovate@43.15.1:
+    resolution: {integrity: sha512-J0QHp2iOKQ8vhz5z0cWK6ZxygThcw9yBT0Bdl+ALVL4e0LivqIlSEk7dNGYQ+D+d9gUQpgNTvVkkJtbZgrqdFw==}
     engines: {node: ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -2757,6 +2757,7 @@ packages:
   tar@7.5.7:
     resolution: {integrity: sha512-fov56fJiRuThVFXD6o6/Q354S7pnWMJIVlDBYijsTNx6jKSE4pvrDTs6lUnmGvNyfJwFQQwWy3owKz1ucIhveQ==}
     engines: {node: '>=18'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   through2-concurrent@2.0.0:
     resolution: {integrity: sha512-R5/jLkfMvdmDD+seLwN7vB+mhbqzWop5fAjx5IX8/yQq7VhBhzDmhXgaHAOnhnWkCpRMM7gToYHycB0CS/pd+A==}
@@ -6609,7 +6610,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.12.1(encoding@0.1.13)(typanion@3.14.0):
+  renovate@43.15.1(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.980.0
       '@aws-sdk/client-ec2': 3.980.0
