@@ -10,7 +10,7 @@ importers:
     devDependencies:
       renovate:
         specifier: latest
-        version: 43.99.1(typanion@3.14.0)
+        version: 43.101.2(typanion@3.14.0)
 
 packages:
 
@@ -516,12 +516,13 @@ packages:
       '@node-rs/xxhash':
         optional: true
 
-  '@renovatebot/detect-tools@1.2.9':
-    resolution: {integrity: sha512-GKkts6FCkyUwBeRXrUfkPIAwACoE64y8EH66em5wZ9+KkRBi8YdC4jpY8lPrDgj5cgTzfsyArHETeavKzmmLBg==}
+  '@renovatebot/detect-tools@2.0.0':
+    resolution: {integrity: sha512-bdf6QcWyfXqBl4/8l96XCzyR+u28tIgKFnR+sJFeGht8u+e9fOWf5ZAZ+Mkq3qSXT4xBRwbYYE3udZC0wU2UIw==}
+    engines: {node: '>=22.12.0'}
 
-  '@renovatebot/good-enough-parser@1.2.0':
-    resolution: {integrity: sha512-5HrZJqZJzjzhghtJ85nNG8/dE97MQ1LOvo+T4dMGZg1s56HnZEZkm5KENNhQ+dwqC6vk5DdOcZ8J0oQOcn8gng==}
-    engines: {node: '>=18.12.0', yarn: ^1.17.0}
+  '@renovatebot/good-enough-parser@2.0.0':
+    resolution: {integrity: sha512-3GiqYMmerr9IsF5Rl98l5lGX/A/s9DQo5gHMgdteNPwL8VR3TZjn22hU+14jttST0mrua1g0aNrVWnpKdGM4Hw==}
+    engines: {node: '>=22.12.0', pnpm: ^10.0.0}
 
   '@renovatebot/osv-offline-db@2.4.0':
     resolution: {integrity: sha512-W8MmEcyLmbTZG0j2Vh9CRVcqpKU9BvElki9nPReykmilE9ab66NczAwIpwRlyxjuJkr10lceX2XLzTVxfq+Qeg==}
@@ -1213,8 +1214,8 @@ packages:
     resolution: {integrity: sha512-vtcDfH3TOjP8UekytvnHH1o1P4FcUdt4eQ1Y+Abap1tk/OB2MWQvcwS2ClCd1zuIhc3JKOx6p3kod8Vfys3E+A==}
     engines: {node: '>=0.3.1'}
 
-  diff@8.0.3:
-    resolution: {integrity: sha512-qejHi7bcSD4hQAZE0tNAawRK1ZtafHDmMTMkrrIGgSLl7hTnQHmKCeB45xAcbfTqK2zowkM3j3bHt/4b/ARbYQ==}
+  diff@8.0.4:
+    resolution: {integrity: sha512-DPi0FmjiSU5EvQV0++GFDOJ9ASQUVFh5kD+OzOnYdi7n3Wpm9hWWGfB/O2blfHcMVTL5WkQXSnRiK9makhrcnw==}
     engines: {node: '>=0.3.1'}
 
   dom-serializer@2.0.0:
@@ -2044,9 +2045,6 @@ packages:
   moment@2.30.1:
     resolution: {integrity: sha512-uEmtNhbDOrWPFS+hdjFCBfy9f2YoyzRpwcl+DqpC6taX21FzsTLQVbMV/W7PzNSX6x/bhC1zA3c2UQ5NzH6how==}
 
-  moo@0.5.2:
-    resolution: {integrity: sha512-iSAJLHYKnX41mKcJKjqvnAN9sf0LMDTXDEvFv+ffuRR9a1MIuXLjMNL6EsnDHSkKLTWNqQQ5uo61P4EbU4NU+Q==}
-
   moo@0.5.3:
     resolution: {integrity: sha512-m2fmM2dDm7GZQsY7KK2cme8agi+AAljILjQnof7p1ZMDe6dQ4bdnSMx0cPppudoeNv5hEFQirN6u+O4fDE0IWA==}
 
@@ -2360,8 +2358,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.99.1:
-    resolution: {integrity: sha512-WIDbU+Nt+wt1/pwnU5Du9v9A6csQVslbcf9j5l+HUh2vPQAie4SW6rWmUbONof6FvG+3Zjh0sWPw8wHU/RxziA==}
+  renovate@43.101.2:
+    resolution: {integrity: sha512-x9koGX/573W3B/iQZSy2f++E+T77zoUHPivrJODyvR/Y3pAvafSkLti090Pz+B1AYIx6ABR9GiNVRp4I3jwOSg==}
     engines: {node: ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -3916,19 +3914,19 @@ snapshots:
     dependencies:
       cluster-key-slot: 1.1.2
 
-  '@renovatebot/detect-tools@1.2.9':
+  '@renovatebot/detect-tools@2.0.0':
     dependencies:
       fs-extra: 11.3.4
       toml-eslint-parser: 0.12.0
       upath: 2.0.1
       zod: 3.25.76
 
-  '@renovatebot/good-enough-parser@1.2.0':
+  '@renovatebot/good-enough-parser@2.0.0':
     dependencies:
       '@thi.ng/zipper': 1.0.3
       '@types/moo': 0.5.10
       klona: 2.0.6
-      moo: 0.5.2
+      moo: 0.5.3
 
   '@renovatebot/osv-offline-db@2.4.0':
     dependencies:
@@ -4771,7 +4769,7 @@ snapshots:
 
   diff@5.2.2: {}
 
-  diff@8.0.3: {}
+  diff@8.0.4: {}
 
   dom-serializer@2.0.0:
     dependencies:
@@ -5826,8 +5824,6 @@ snapshots:
   moment@2.30.1:
     optional: true
 
-  moo@0.5.2: {}
-
   moo@0.5.3: {}
 
   ms@2.1.3: {}
@@ -6201,7 +6197,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.99.1(typanion@3.14.0):
+  renovate@43.101.2(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1000.0
       '@aws-sdk/client-ec2': 3.1000.0
@@ -6231,8 +6227,8 @@ snapshots:
       '@pnpm/parse-overrides': 1001.0.3
       '@qnighy/marshal': 0.1.3
       '@redis/client': 5.11.0
-      '@renovatebot/detect-tools': 1.2.9
-      '@renovatebot/good-enough-parser': 1.2.0
+      '@renovatebot/detect-tools': 2.0.0
+      '@renovatebot/good-enough-parser': 2.0.0
       '@renovatebot/osv-offline': 2.4.0
       '@renovatebot/pep440': 4.2.2
       '@renovatebot/pgp': 1.3.4
@@ -6256,7 +6252,7 @@ snapshots:
       deepmerge: 4.3.1
       dequal: 2.0.3
       detect-indent: 7.0.2
-      diff: 8.0.3
+      diff: 8.0.4
       editorconfig: 3.0.2
       email-addresses: 5.0.0
       emoji-regex: 10.6.0
