@@ -1,7 +1,6 @@
-ignoredBuiltDependencies:
-  - better-sqlite3
-  - core-js-pure
-  - dtrace-provider
-  - protobufjs
-  - re2
-
+allowBuilds:
+  better-sqlite3: false
+  core-js-pure: false
+  dtrace-provider: false
+  protobufjs: false
+  re2: false
