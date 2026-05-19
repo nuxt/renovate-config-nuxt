@@ -13,6 +13,7 @@
     "node"
   ],
   "rangeStrategy": "bump",
+  "minimumReleaseAge": "25 hours",
   "npm": {
     "commitMessageTopic": "{{prettyDepType}} {{depName}}"
   },
