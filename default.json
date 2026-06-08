@@ -19,12 +19,9 @@
   ],
   "packageRules": [
     {
-      "matchManagers": [
-        "npm"
-      ],
-      "matchDepNames": [
-        "node"
-      ],
+      "matchManagers": ["npm"],
+      "matchDepTypes": ["engines"],
+      "matchDepNames": ["node"],
       "enabled": false
     },
     {
