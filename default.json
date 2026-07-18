@@ -9,9 +9,6 @@
   "meteor": {
     "enabled": false
   },
-  "ignoreDeps": [
-    "node"
-  ],
   "rangeStrategy": "bump",
   "minimumReleaseAge": "25 hours",
   "npm": {
@@ -21,6 +18,12 @@
     "on Monday"
   ],
   "packageRules": [
+    {
+      "matchManagers": ["npm"],
+      "matchDepTypes": ["engines"],
+      "matchDepNames": ["node"],
+      "enabled": false
+    },
     {
       "groupName": "nuxt framework",
       "groupSlug": "nuxt",
