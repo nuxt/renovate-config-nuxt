@@ -19,6 +19,14 @@
   ],
   "packageRules": [
     {
+      "matchSourceUrls": [
+        "https://github.com/nuxt/**",
+        "https://github.com/nuxt-contrib/**",
+        "https://github.com/unjs/**"
+      ],
+      "minimumReleaseAge": null
+    },
+    {
       "matchManagers": ["npm"],
       "matchDepTypes": ["engines"],
       "matchDepNames": ["node"],
