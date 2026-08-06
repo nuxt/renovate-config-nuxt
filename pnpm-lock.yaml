@@ -9,7 +9,7 @@ importers:
   .:
     devDependencies:
       renovate:
-        specifier: latest
+        specifier: ^44.11.1
         version: 44.11.1(supports-color@7.2.0)(typanion@3.14.0)
 
 packages:
