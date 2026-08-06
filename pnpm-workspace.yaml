@@ -4,3 +4,10 @@ allowBuilds:
   dtrace-provider: false
   protobufjs: false
   re2: false
+
+minimumReleaseAgeExclude:
+  - nuxt
+  - nuxt-nightly
+  - '@nuxt/*'
+  - vue
+  - '@vue/*'
