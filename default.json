@@ -19,10 +19,12 @@
   ],
   "packageRules": [
     {
-      "matchSourceUrls": [
-        "https://github.com/nuxt/**",
-        "https://github.com/nuxt-contrib/**",
-        "https://github.com/unjs/**"
+      "matchPackageNames": [
+        "nuxt",
+        "nuxt-nightly",
+        "@nuxt/**",
+        "vue",
+        "@vue/**"
       ],
       "minimumReleaseAge": null
     },
