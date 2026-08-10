@@ -1,0 +1,15 @@
+{
+  "description": "Exempt Nuxt core packages from minimum release age",
+  "packageRules": [
+    {
+      "matchPackageNames": [
+        "nuxt",
+        "nuxt-nightly",
+        "@nuxt/**",
+        "vue",
+        "@vue/**"
+      ],
+      "minimumReleaseAge": null
+    }
+  ]
+}
