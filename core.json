@@ -1,5 +1,8 @@
 {
-  "description": "Exempt Nuxt core packages from minimum release age",
+  "description": "Internal preset for Nuxt core repositories. Extends the default preset and exempts Nuxt core packages from minimum release age.",
+  "extends": [
+    "github>nuxt/renovate-config-nuxt"
+  ],
   "packageRules": [
     {
       "matchPackageNames": [
