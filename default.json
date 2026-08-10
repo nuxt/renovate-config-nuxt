@@ -19,16 +19,6 @@
   ],
   "packageRules": [
     {
-      "matchPackageNames": [
-        "nuxt",
-        "nuxt-nightly",
-        "@nuxt/**",
-        "vue",
-        "@vue/**"
-      ],
-      "minimumReleaseAge": null
-    },
-    {
       "matchManagers": ["npm"],
       "matchDepTypes": ["engines"],
       "matchDepNames": ["node"],
