@@ -18,7 +18,7 @@
     "prepare": "npm run test"
   },
   "devDependencies": {
-    "renovate": "^44.17.2"
+    "renovate": "^44.30.4"
   },
-  "packageManager": "pnpm@11.21.0"
+  "packageManager": "pnpm@11.22.0"
 }
