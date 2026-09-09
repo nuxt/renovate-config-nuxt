@@ -13,12 +13,23 @@
   },
   "scripts": {
     "validate": "renovate-config-validator default.json",
-    "test": "npm run validate",
-    "release": "standard-version && git push --follow-tags && npm publish",
-    "prepare": "npm run test"
+    "test": "pnpm run validate",
+    "release": "standard-version && git push --follow-tags && pnpm publish",
+    "prepare": "pnpm run test"
   },
   "devDependencies": {
     "renovate": "^44.65.5"
   },
-  "packageManager": "pnpm@12.3.4"
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "^24.0.0",
+      "onFail": "download"
+    },
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.3.4",
+      "onFail": "download"
+    }
+  }
 }
