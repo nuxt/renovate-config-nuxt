@@ -113,7 +113,7 @@ importers:
         specifier: runtime:^24.0.0
         version: runtime:24.21.0
       renovate:
-        specifier: ^44.65.5
+        specifier: ^44.82.5
         version: 44.82.5(supports-color@7.2.0)(typanion@3.14.0)
 
 packages:
