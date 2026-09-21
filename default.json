@@ -4,7 +4,8 @@
     "config:recommended",
     "group:allNonMajor",
     ":maintainLockFilesWeekly",
-    ":semanticCommitTypeAll(chore)"
+    ":semanticCommitTypeAll(chore)",
+    "schedule:weekly"
   ],
   "meteor": {
     "enabled": false
@@ -14,9 +15,6 @@
   "npm": {
     "commitMessageTopic": "{{prettyDepType}} {{depName}}"
   },
-  "schedule": [
-    "on Monday"
-  ],
   "packageRules": [
     {
       "matchManagers": ["npm"],
