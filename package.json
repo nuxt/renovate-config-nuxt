@@ -18,7 +18,7 @@
     "prepare": "pnpm run test"
   },
   "devDependencies": {
-    "renovate": "^44.199.0"
+    "renovate": "^44.222.3"
   },
   "devEngines": {
     "runtime": {
@@ -28,7 +28,7 @@
     },
     "packageManager": {
       "name": "pnpm",
-      "version": "12.16.1",
+      "version": "12.18.0",
       "onFail": "download"
     }
   }
