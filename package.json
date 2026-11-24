@@ -18,17 +18,17 @@
     "prepare": "pnpm run test"
   },
   "devDependencies": {
-    "renovate": "^44.222.3"
+    "renovate": "^44.257.9"
   },
   "devEngines": {
     "runtime": {
       "name": "node",
-      "version": "^26.13.0",
+      "version": "^26.13.1",
       "onFail": "download"
     },
     "packageManager": {
       "name": "pnpm",
-      "version": "12.18.0",
+      "version": "12.23.0",
       "onFail": "download"
     }
   }
